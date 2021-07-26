@@ -2,6 +2,10 @@
 
 A clone of 2048, a game originally created by Gabriele Cirulli, built with Seed, a Rust framework.
 
+<p align="center">
+  <img src="public/2048-preview.PNG">
+</p>
+
 ## 1. Install / check required tools
 
 1. Make sure you have basic tools installed:
