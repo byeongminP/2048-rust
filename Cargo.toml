@@ -1,8 +1,8 @@
 [package]
 version = "0.1.0"
-name = "{{project-name}}"
-repository = "https://github.com/seed-rs/seed-quickstart"
-authors = ["{{authors}}"]
+name = "rust-2048"
+repository = "https://github.com/byeongminP/2048-rust.git"
+authors = ["Michael Park"]
 description = "App Description"
 categories = ["category"]
 license = "MIT"
@@ -16,7 +16,11 @@ crate-type = ["cdylib"]
 wasm-bindgen-test = "0.3.18"
 
 [dependencies]
+getrandom = { version = "0.2", features = ["js"] }
+rand = "0.8.4"
 seed = "0.8.0"
+serde = "1.0.126"
+wasm-bindgen = "0.2.74"
 
 [profile.release]
 lto = true
